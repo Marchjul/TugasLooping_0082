@@ -88,7 +88,6 @@ int main() {
                 cout << "Pilihan tidak valid! Silakan masukkan 0, 1, atau 2." << endl;
                 break;
         }
-    
     }
     return 0;
 }
