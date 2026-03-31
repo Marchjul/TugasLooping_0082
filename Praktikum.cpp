@@ -65,3 +65,9 @@ void tampilHasilFibonacci() {
         cout << "-> " << angka_input << " TIDAK TERMASUK dalam deret Fibonacci." << endl;
     }
 }
+
+// Fungsi utama
+int main() {
+    pilihan_menu = -1; // Inisialisasi awal agar masuk ke dalam loop
+
+}
