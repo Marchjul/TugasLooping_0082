@@ -31,3 +31,11 @@ bool isPrima(int n) {
     }
     return true;
 }
+
+// Fungsi boolean mengecek deret Fibonacci menggunakan while loop
+bool isFibonacci(int n) {
+    if (n < 0) return false;
+    int a = 0, b = 1;
+    if (n == a || n == b) return true;
+
+}
