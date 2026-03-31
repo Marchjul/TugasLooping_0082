@@ -47,3 +47,12 @@ bool isFibonacci(int n) {
     }
     return false;
 }
+
+// Prosedur menampilkan hasil cek prima
+void tampilHasilPrima() {
+    if (isPrima(angka_input)) {
+        cout << "-> " << angka_input << " ADALAH bilangan Prima." << endl;
+    } else {
+        cout << "-> " << angka_input << " BUKAN bilangan Prima." << endl;
+    }
+}
