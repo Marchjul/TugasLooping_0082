@@ -14,3 +14,9 @@ void tampilMenu() {
     cout << "Masukkan pilihan Anda: ";
     cin >> pilihan_menu;
 }
+
+// Prosedur untuk menerima input angka dari pengguna
+void terimaInput() {
+    cout << "Masukkan sebuah angka: ";
+    cin >> angka_input;
+}
