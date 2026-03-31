@@ -73,6 +73,11 @@ int main() {
     while (pilihan_menu != 0) {
         tampilMenu();
         switch (pilihan_menu)
+
+        case 1:
+                terimaInput();
+                tampilHasilPrima();
+                break;
     }
 
 }
