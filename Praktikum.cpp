@@ -70,4 +70,7 @@ void tampilHasilFibonacci() {
 int main() {
     pilihan_menu = -1; // Inisialisasi awal agar masuk ke dalam loop
 
+    while (pilihan_menu != 0) {
+        tampilMenu();
+
 }
