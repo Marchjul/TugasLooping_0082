@@ -56,3 +56,12 @@ void tampilHasilPrima() {
         cout << "-> " << angka_input << " BUKAN bilangan Prima." << endl;
     }
 }
+
+// Prosedur menampilkan hasil cek Fibonacci
+void tampilHasilFibonacci() {
+    if (isFibonacci(angka_input)) {
+        cout << "-> " << angka_input << " TERMASUK dalam deret Fibonacci." << endl;
+    } else {
+        cout << "-> " << angka_input << " TIDAK TERMASUK dalam deret Fibonacci." << endl;
+    }
+}
